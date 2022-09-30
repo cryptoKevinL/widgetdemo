@@ -4,6 +4,7 @@ import WalletChatWidget from '../components/WalletChat/WalletChat';
 const Widget = () => {
     const [subPage, setSubPage] = useState("Swap");
     return (
+        <div>
         <div className='relative h-[90vh]'>
             <div className='flex justify-around mt-4'>
                 <div className='flex rounded-3xl bg-white p-1'>
@@ -49,6 +50,7 @@ const Widget = () => {
                 }
             }>
 
+            </div>
             </div>
             <WalletChatWidget />
         </div>
